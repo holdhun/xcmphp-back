@@ -2,6 +2,7 @@
 namespace App\Model;
 
 use \App\Model\DB;
+use  \App\Model;
 use  PDO;
 class Test{
 
@@ -12,4 +13,9 @@ class Test{
         $sth->execute();
         return $sth->fetchAll();
     }
+	
+	public function getTableAll($table){
+		$db = Model::instance();
+		return  $db->select($table,'*');
+	}
 }

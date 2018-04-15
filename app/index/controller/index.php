@@ -21,13 +21,16 @@ class index extends Controller
 {
 
     public function action_index(){
-        echo "pdo connect test<hr>";
+        echo "pdo  style:<hr>";
         $model =new Test();
         $data = $model->getAll('admin');
         var_dump($data);
         $lib = new Testlib();
-        echo "<hr>";
+        echo "<hr>load lib/testlib <hr>";
         var_dump($lib->getValue(123));
+		echo "<hr>medoo orm  style:<hr>";
+		var_dump($model->getTableAll('admin'));
+		
         View::render();
     }
 
