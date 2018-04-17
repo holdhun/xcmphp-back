@@ -42,7 +42,7 @@
 
         $obj = new $controllerName();
 
-        $action = 'action_'.$actionName;
+        $action = $actionName;
 
         $obj->$action();
 

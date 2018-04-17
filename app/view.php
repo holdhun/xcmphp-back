@@ -33,7 +33,7 @@ namespace App;
         }
         public function tpl()
         {
-            return require APP_PATH.MODULE_NAME.'/view/'.CONTROLLER_NAME.'.'.ACTION_NAME.'.php';
+            return require APP_PATH.MODULE_NAME.'/view/'.CONTROLLER_NAME.'/'.ACTION_NAME.'.php';
 
         }
 
