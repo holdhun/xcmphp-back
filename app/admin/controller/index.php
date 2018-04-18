@@ -11,14 +11,18 @@
 
 namespace App\admin\Controller;
 
+use App\Controller;
 
 
-class index 
+class index  extends  Controller
 {
+    
 
-    public function action_index(){
-        echo "admin";
-       
+    public function index(){
+        $info = [1,2,3,4];
+		$this->assign('test',$info);
+        $this->render();
     }
 
+    
 }

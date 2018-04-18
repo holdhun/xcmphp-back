@@ -18,7 +18,7 @@ class Model
 					'database_name' => $config['database_name'],
 					'server' => $config['server'],
 					'username' => $config['username'],
-					'password' => $config['password']
+					'password' => $config['password'],
 				]);
             }
             return self::$_instance;

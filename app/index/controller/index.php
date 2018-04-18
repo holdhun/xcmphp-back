@@ -17,10 +17,10 @@ use \App\Model\Test;  //load class Test
 use \App\Lib\Testlib; //load  class Testlib  from third library
 
 
-class index extends Controller
+class Index extends Controller
 {
 
-    public function action_index(){
+    public function index(){
         echo "pdo  style:<hr>";
         $model =new Test();
         $data = $model->getAll('admin');
@@ -30,8 +30,8 @@ class index extends Controller
         var_dump($lib->getValue(123));
 		echo "<hr>medoo orm  style:<hr>";
 		var_dump($model->getTableAll('admin'));
-		
-        View::render();
+        $this->assign('test', 'ok,asdasd');
+        $this->render();
     }
 
 }

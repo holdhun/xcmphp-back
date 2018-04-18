@@ -3,6 +3,7 @@
 
 
 header("content-type:text/html;charset=utf-8");
+
 //	负责自动加载
 define('APP_PATH', __DIR__ . '/');
 define('ROOT_PATH', __DIR__ . '/../');

@@ -1,1 +1,3 @@
-<hr>footer</hr>
+<hr>
+footer
+<hr>

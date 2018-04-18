@@ -7,6 +7,7 @@ return ([
     'password' => 'root',
     'charset' => 'utf8',
     'dsn' => "mysql:host=localhost;dbname=test",
+
     
     'port' => 3306,
 
