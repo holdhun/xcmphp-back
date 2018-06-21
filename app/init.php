@@ -12,7 +12,7 @@ define('LIB_PATH',APP_PATH.'lib/');
 define('MODEL_PATH',APP_PATH.'model/');
 
 
-
+/*
 function __autoload($classname) {
     $classname = str_replace('\\','/',$classname) ;
 
@@ -25,6 +25,6 @@ function __autoload($classname) {
 }
 
 
-
+*/
 
 

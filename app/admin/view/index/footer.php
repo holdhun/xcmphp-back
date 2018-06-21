@@ -1,3 +1,0 @@
-<hr>
-footer
-<hr>

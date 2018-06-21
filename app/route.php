@@ -38,7 +38,7 @@
         define('ACTION_NAME',$actionName);
 
         if(in_array($moduleName,$config['modules']) || $moduleName==$DefaultModuleName)
-        $controllerName = "\\App\\".$moduleName."\\Controller\\".$controllerName;
+        $controllerName = "\\app\\".$moduleName."\\controller\\".$controllerName;
 
         $obj = new $controllerName();
 

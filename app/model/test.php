@@ -1,8 +1,8 @@
 <?php
-namespace App\Model;
+namespace app\model;
 
-use \App\Model\DB;
-use  \App\Model;
+//use \App\Model\DB;
+//use  \App\Model;
 use  PDO;
 class Test{
 
@@ -15,7 +15,7 @@ class Test{
     }
 	
 	public function getTableAll($table){
-		$db = Model::instance();
+		$db = \app\model\Medoo::instance();
 		return  $db->select($table,'*');
 	}
 }

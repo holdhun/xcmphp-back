@@ -1,0 +1,16 @@
+{
+    "require": {
+        "filp/whoops": "^2.2"
+    },
+   "autoload": {
+        "psr-4": {
+            "core\\": "core",
+            "app\\": "app",
+            "app\\index\\": "app/index",
+            "app\\index\\controller\\": "app/index/controller",
+            "app\\index\\model\\": "app/index/controller",
+            "app\\lib\\": "app/lib",
+            "app\\model\\": "app/model"
+        }
+    }
+}

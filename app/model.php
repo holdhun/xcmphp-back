@@ -1,8 +1,8 @@
 <?php
 
-namespace App;
+namespace app;
 
-use \App\Model\Medoo;
+//use \App\Model\Medoo;
 
 class Model
 {
@@ -13,7 +13,7 @@ class Model
             if(!isset(self::$_instance))
             {
             	$config = include(CONFIG);
-                self::$_instance = new Medoo([
+                self::$_instance = new \app\model\Medoo([
 					'database_type' => $config['database_type'],
 					'database_name' => $config['database_name'],
 					'server' => $config['server'],

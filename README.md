@@ -1,3 +1,13 @@
 # xcmphp
 php framwork
-12312
+
+Vision 1.3.1
+不能使用composer
+
+Vision 1.3.2
+composer加载各种类
+
+任意加载类
+
+有任何问题欢迎发邮件2329237005@qq.com
+
